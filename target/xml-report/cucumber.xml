@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="30.693" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Medunna Odasi Olusturma" name="Create Room - Example #1.1" time="25.127">
+<system-out><![CDATA[
+Given "https://medunna.com" web adresine gidilir............................passed
+When User simgesine tiklanir................................................passed
+And Sign in secenegine tiklanir.............................................passed
+And Username kutusuna kullanici adi girilir.................................passed
+And Password kutusuna password girilir......................................passed
+And Sign in butonuna tiklanir...............................................passed
+When Items&Titles secenegine tiklanir.......................................passed
+And Room secenegine tiklanir................................................passed
+And Create a new Room butonuna tiklanir.....................................passed
+And Room Number kutusuna bir oda_no girilir.................................passed
+And Room Type menusunden SUITE secenegi secilir.............................passed
+And Status kontrol kutusuna tiklanir........................................passed
+And Price kutusuna "123" degeri girilir.....................................passed
+And Description kutusuna bir "End To End Test için oluşturulmuştur" girilir.passed
+And Save butonuna tiklanir..................................................passed
+And Uygulama kapatilir......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GET Room Request" name="Get Room Request ile Dogrulama" time="2.515">
+<system-out><![CDATA[
+Given GET request gonderilir................................................passed
+Then Body dogrulanir........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Room DataBase Testi" name="Oda Secimi" time="2.441">
+<system-out><![CDATA[
+Given Database baglantisi kur...............................................passed
+Then Oda bilgilerini dogrula................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
