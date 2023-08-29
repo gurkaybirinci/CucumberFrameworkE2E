@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="30.693" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="Medunna Odasi Olusturma" name="Create Room - Example #1.1" time="25.127">
+<testsuite name="Cucumber" time="20.713" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Medunna Odasi Olusturma" name="Create Room - Example #1.1" time="16.588">
 <system-out><![CDATA[
 Given "https://medunna.com" web adresine gidilir............................passed
 When User simgesine tiklanir................................................passed
@@ -20,13 +20,13 @@ And Save butonuna tiklanir..................................................pass
 And Uygulama kapatilir......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="GET Room Request" name="Get Room Request ile Dogrulama" time="2.515">
+<testcase classname="GET Room Request" name="Get Room Request ile Dogrulama" time="1.643">
 <system-out><![CDATA[
 Given GET request gonderilir................................................passed
 Then Body dogrulanir........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Room DataBase Testi" name="Oda Secimi" time="2.441">
+<testcase classname="Room DataBase Testi" name="Oda Secimi" time="2.208">
 <system-out><![CDATA[
 Given Database baglantisi kur...............................................passed
 Then Oda bilgilerini dogrula................................................passed
